@@ -1,0 +1,15 @@
+
+Algo
+
+
+1. Computer makes first move then calls the minimax function ,then human moves.
+
+2. Computer moves denoted by t=-1 and human t=1 ,human plays -1 computer 1 each play alternately ,calls checkboard to check if 3 formed in a row or column.
+
+3. Now suppose 7 box filled and 2 left so computer will try both and return the one in which it wins(positive values).
+these will become negative due to -minimax. so now human will put some where else check what value it returns
+it will take the most negative value return by computer(as it becomes postive due to minimax)
+
+Conclusion:Both will return their  best possible move and other will try to run away as much as possible  
+move to move stored in move.
+
