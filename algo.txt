@@ -2,7 +2,7 @@
 Algo
 
 
-1. Computer makes first move then calls the minimax function ,then human moves.
+1.When computer moves it calls the minimax function ,then human moves.
 
 2. Computer moves denoted by t=-1 and human t=1 ,human plays -1 computer 1 each play alternately ,calls checkboard to check if 3 formed in a row or column.
 
